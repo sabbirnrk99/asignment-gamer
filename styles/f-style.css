@@ -1,0 +1,479 @@
+.header{
+    /* border: 2px solid salmon; */
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    flex-shrink: 0;
+    align-items: center;
+    text-align: center;
+}
+.nav-logo{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 86.041px 147px;
+    margin-left: 240px;
+    align-items: center;
+
+}
+.nav-logo >img{
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.nav-logo-txt{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-tab {
+    margin-right: 240px;
+}
+.nav-tab ul {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    align-items: center;
+}
+.nav-tab li{
+    /* border: 1px solid black; */
+    list-style: none;
+    margin: 32px;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#follow-icon{
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* -----------banner--------------- */
+
+
+.banner{
+    /* border: 1px solid darkgoldenrod; */
+    width: 100%;
+    height: 681px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 68px; */
+}
+
+.banner-text-container{
+    background-image: url(/images/Group\ 14.png);
+    background-size: 100%;
+    text-align: center;
+
+
+}
+
+.ban-img{
+    width: 100%;
+}
+.ban-title{
+    /* border: 1px solid red; */
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 148px;
+    margin-bottom: 0px;
+}
+.ban-col-title{
+    /* border: 1px solid blue; */
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+.ban-details{
+    /* border: 1px solid purple; */
+    text-align: left;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 24px;
+    padding-left:35% ;
+}
+.btn-primary{
+    border: none;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    margin: 11px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+#btn-primary-2{
+    background: #4EC5F7;
+}
+
+/* ------------------intro 1---------- */
+.intro-sec{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.intro-text{
+    text-align: right;
+    margin-right: 240px;
+    width: 520px;
+
+}
+.int-pra{
+    /* border: 1px solid khaki; */
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    
+}
+.intro-img{
+    align-items: center;
+    text-align: center;
+}
+.intro-img img{
+    width: 70%;
+    margin-top: 55px;
+    margin-left: 240px;
+
+}
+.int-title{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.int-footer{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+.int-footer-col{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    
+}
+
+/* -------------sectino2 --------------- */
+
+.video-title-cont{
+    text-align: center;
+}
+.video-title{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.video-title-ex{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.video-des{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.video-card-cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0px 240px 0px 240px;
+    border-radius: 16px;
+
+
+}
+.video-card-cont img:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.video-card-cont img{
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.video-para{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    width: 342px;
+}
+
+
+/* ---------------game-------------- */
+
+.games{
+    margin-left: 240px;
+    margin-right: 180px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.game-img-cont{
+    width: 800.9px;
+    height: 730.8px;
+    border-radius: 8px;
+    background: url(/images/Rectangle\ 55.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 80%;
+}
+.game-img-cont img{
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    
+    position: relative;
+        bottom: -365px;
+        left: 20px;   
+     
+    
+    
+}
+.game-text-cont{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.game-title{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    width: 341px;
+    margin-bottom: 0px;
+}
+.game-title-ex{
+    color: #F948B2;
+}
+
+.game-des{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 353px;
+}
+
+
+.game-img-cont-2{
+    width: 800.9px;
+    height: 730.8px;
+    border-radius: 8px;
+    background: url(/images/Rectangle\ 67.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 80%;
+}
+.game-img-cont-2 img{
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    
+    position: relative;
+        bottom: -365px;
+        left: 500px;   
+     
+    
+    
+}
+.game-text-cont-2{
+    position: relative;
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* -----------careers------------------- */
+
+.cereers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    width: 100%;
+    height: 821px;
+    flex-shrink: 0;
+    margin: 0px;
+
+}
+
+.careers-text-cont{
+    width: 650px;
+    margin-left: 240px ;
+    margin-top: 120px;
+}
+.careers-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    width: 426px;
+    margin-bottom: 20px;
+}
+.careers-des{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 680px;
+    margin-top: 0%;
+    margin-bottom: 32px;
+}
+.career-list{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.career-list-left li{
+    list-style: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+    margin-left: -35px;
+}
+.career-list-right li{
+    list-style: none;
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+.careers-btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #F948B2;
+    border: none;
+    }
+    /* ----------game-category------------ */
+    .game-category{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 130px 240px 130px 240px;
+        justify-content: center;
+        
+    }
+
+    .category-card{
+        
+        
+        display: flex;
+        flex-direction: row;
+        color: #0B0223;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid #fc8ac5;
+        border-radius: 50px;
+    }
+    .category-card p{
+        padding: 0px 10px;
+    }
+    .category-card :hover {
+        color: #FF42A5;
+        
+    }
+
+    
