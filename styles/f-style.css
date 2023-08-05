@@ -278,7 +278,7 @@
     width: 800.9px;
     height: 730.8px;
     border-radius: 8px;
-    background:url(images/Rectangle\ 55.png) ;
+    background:url("/images/Rectangle\ 55.png") ;
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 80%;
@@ -332,7 +332,7 @@
     width: 800.9px;
     height: 730.8px;
     border-radius: 8px;
-    background: url(images/Rectangle\ 67.png);
+    background: url("/images/Rectangle\ 67.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 80%;
